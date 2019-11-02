@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="26px" viewBox="0 0 16 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="7" y="3.93939394" width="2" height="4.72727273" rx="1"></rect>
+    </defs>
+    <g id="Campus+-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-712.000000, -727.000000)">
+            <g id="Header">
+                <g id="Scrolling-indicator" transform="translate(712.000000, 727.000000)">
+                    <g>
+                        <rect id="Rectangle" stroke="#979797" stroke-width="2" x="1" y="1" width="14" height="24" rx="7"></rect>
+                        <g id="Rectangle-2">
+                            <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#979797" stroke-width="2" x="8" y="4.93939394" width="1" height="2.72727273" rx="0.5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

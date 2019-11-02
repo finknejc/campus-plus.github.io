@@ -1,0 +1,621 @@
+@font-face {
+    font-family: Circular; src: url(fonts/lineto-circular-pro-bold.ttf);
+    font-family: CircularBook; src: url(fonts/lineto-circular-pro-book.ttf);
+    
+}
+/*      ----------------------- sections ------------------------*/
+body{
+    margin: 0;
+    background: linear-gradient(0deg, #C896EC 0%, #4bccdd 100%);
+    font-family: Circular;
+    font-weight: bold;
+}
+
+#header{
+    height: 9vh;
+    width: inherit;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+}
+#footer{
+   height: 10vh;
+    width: 100vw;
+    background-color: #77EDDF;
+    text-align: right;
+    padding-top: 8vw;
+    padding-right: 0vw;
+}
+#countdown {
+    font-family: CircularBook;
+    color: rgba(0,0,0,0.14);
+    font-size: 64px;
+    padding: 0;
+ 
+}
+.startsin{
+    font-size: 24px;
+}
+.when{
+    font-family: Circular;
+    font-weight: bold;
+    position: absolute;
+    margin: 0;
+    color:  rgba(0,0,0,0.86);
+    word-spacing: 60px;
+    
+}
+.footerlogo{
+    float: left;
+    margin-left: 10vw;
+}
+a.menufix{
+    text-decoration: none;
+    font-size: 72px;
+    color:  rgba(0,0,0,0.54);
+    
+    
+}
+a.menufix:hover{
+    color: #53E7FA;
+}
+h1{
+    color: rgba(0,0,0,0.54);
+    z-index: 1;
+    font-size: 44px;
+    
+}
+h4{
+    color: rgba(0,0,0,0.38);
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+  color: rgba(0,0,0,0.54); 
+    font-size: 20px;
+    font-weight: normal;
+}
+.headname{
+    float: left;
+    opacity: 0.38;
+    font-size: 36px;
+    margin: 15px;
+}
+.logo{
+    height: 9vh;
+    width: 9vh;
+    background-color:  #53E7FA;
+    float: left;
+    background-image: url(files/nav.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    	box-shadow: 6px 8px 32px 0 rgba(165,241,228,0.71);
+    
+}
+.burgermenu{
+    
+    height: 9vh;
+    width: 9vh;
+    background-color: #AF69E2;
+    background-image: url(files/icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+        box-shadow: -6px 8px 32px 0 rgba(184,122,230,0.71);
+}
+
+.menu{
+    padding-top: 15vh;
+    opacity: 0.9;
+    height: 100vh;
+    width: inherit;
+    background-color: #eef2f5;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+.menuitem{
+     
+    z-index: 5;
+    
+    text-align: center;
+    height: 12vh;
+    background-color: #eef2f5;
+    opacity: 0.9;
+   
+   
+    
+    
+}
+.timer{
+    padding: 0;
+    color: red;
+}
+
+.section{
+    height: 170vh;
+    width: 100vw;
+    background-color: #EEF2F5;
+}
+.companies{
+     height: 300vh;
+    width: 100vw;
+    background-color: #EEF2F5;  
+}
+.parallax{
+    height: 200vh;
+    width: 100vw;
+    background-color: #EEF2F5;
+    
+    position: relative;
+    
+    z-index: 0;
+    overflow: hidden;
+}
+
+
+.one{
+    background-image: url(files/Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    background-image: url(files/Section2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.three{
+    background-image: url(files/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.four{
+    background-image: url(files/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.introduction{
+    padding-top: 15vh;
+    padding-left: 15vw;
+    width: 35vw;
+}
+.helloC{
+    font-size: 44px;
+    color: rgba(0,0,0,0.54);
+    font-weight: bold;
+}
+.countdowntext{
+    padding-top: 35vh;
+    
+    padding-left: 15vw;
+   
+}
+.challenge{
+        padding-top: 120vh;
+        width: 75vw;
+        padding-left: 10vw;
+    }
+.scroll{
+    height: 50px;
+    width: 50px;
+    
+    margin-top: 30vh;
+    margin-left: 40vw;
+    left: 50vw;
+    opacity: 0;
+}
+
+
+.create{
+    float: left;
+    font-size: 44px;
+    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-top: 15vh;
+    color: rgba(0,0,0,0.54);
+    
+}
+
+.instructions{
+    
+    opacity: 0;
+}
+.line{
+    display: none;
+    width: 30px;
+    opacity: 0;
+}
+.lineFirst{
+    display: none;
+    width: 30px;
+}
+
+.stepone{
+    
+    padding-top: 120vh;
+    padding-left: 15vw;
+}
+.steptwo{
+    padding-top: 5vh;
+    padding-left: 15vw;
+    padding-right: 10vw;
+    text-align: left;
+}
+.stepthree{
+    
+    padding-left: 15vw;
+}
+
+/*      ----------------------- parallax ------------------*/
+.layer {
+    margin-left: -2vw;
+	position: absolute;
+	display: block;
+   
+}
+.parallaximg1{
+    width: 110%; 
+}
+.parallaximg2{
+    opacity: 0;
+    
+}
+.parallaximg3{
+    opacity: 0;
+    
+}
+ .Factstitle{
+    font-size: 44px;
+    position: absolute;
+    margin-left: 10vw;
+     font-weight: bold;
+     letter-spacing: -1px;
+    
+    
+     
+}
+.Factsundertitle{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-top: 25vh;
+    font-weight: normal;
+}
+
+.Factstitle2{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 60vh;
+     font-weight: bold;
+     letter-spacing: -1px;
+    
+    
+}
+.Factsundertitle2{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-top: 65vh;
+    
+}
+
+.Factstitle3{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 90vh;
+     font-weight: bold;
+     letter-spacing: -1px;
+    
+}
+.Factsundertitle3{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-top: 95vh;
+}
+
+
+.Factstitle4{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 130vh;
+     font-weight: bold;
+     letter-spacing: -1px;
+}
+.Factsundertitle4{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    margin-top: 135vh;
+    width: 80vw;
+}
+
+
+.Factstitle5{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 160vh;
+     font-weight: bold;
+     letter-spacing: -1px;
+}
+.Factsundertitle5{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    margin-top: 165vh;
+    width: 80vw;
+}
+
+
+
+
+
+/*      ----------------------- parallax ------------------*/
+
+
+
+/*      ----------------------- sponsors ------------------------*/
+.supporting{
+    font-size: 36px;
+    padding-left: 5vw;
+    color: rgba(0,0,0,0.54);
+}
+.smallload{
+    width: inherit;
+    
+}
+.sponsorsimg{
+   
+}
+/*      ----------------------- sponsors ------------------------*/
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+    a.menufix{
+        font-size: 84px;
+        font-weight: bold;
+    }
+    .logo{
+        
+    }
+    .create{
+     float: right;
+        padding-top: 0;
+    }
+    
+    .section{
+        margin-left: 10vw;
+        height: 100vh;
+        width: 80vw;
+        
+    }
+    .companies{
+        margin-left: 10vw;
+        height: 100vh;
+        width: 80vw;
+    }
+    #footer{
+         margin-left: 10vw;
+    height: 9vh;
+    width: 70vw;
+    background-color: #77EDDF;
+    text-align: right;
+    padding-top: 4vw;
+    padding-right: 10vw;
+    }
+    .parallax{
+    margin-left: 10vw;
+    height: 280vh;
+    width: 80vw;
+        
+    
+}
+
+    .stepone{
+        padding-top: 10vh;
+    }
+    .steptwo{
+        padding-top: 0;
+        text-align: right;
+    }
+    .menu{
+        padding-top: 15vh;
+        margin: 0;
+        
+   height: 100vh;
+    width: 80vw;
+   left: 10vw;
+    opacity: 0.95;
+        
+    }
+    .introduction{
+        padding-top: 30vh;
+        width: 20vw;
+    }
+    .challenge{
+        padding-top: 50vh;
+        width: 30vw;
+        padding-left: 10vw;
+    }
+    .countdowntext{
+    padding-top: 0vh;
+    padding-right: 0;
+    width: 25vw;
+    float: right;
+}
+    .countdowntext h4{
+        margin: 0;
+    }
+    .scroll{
+        opacity: 1;
+    }
+    .line{
+        width: auto;
+    opacity: 1;
+    }
+    .lineFirst{
+        display: inherit;
+        width: auto;
+    }
+    /*      ----------------------- parallax ------------------*/
+   .Factstitle{
+    font-size: 44px;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 20vw;
+}
+.Factsundertitle{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 10vw;
+    margin-top: 25vw;
+    width: 30vw;
+}
+
+.Factstitle2{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 50vw;
+}
+.Factsundertitle2{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 15vw;
+    margin-top: 55vw;
+    width: 25vw;
+}
+
+.Factstitle3{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 75vw;
+}
+.Factsundertitle3{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 20vw;
+    margin-top: 80vw;
+    width: 25vw;
+}
+
+
+.Factstitle4{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 92vw;
+}
+.Factsundertitle4{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 45vw;
+    margin-top: 97vw;
+    width: 25vw;
+}
+
+
+.Factstitle5{
+    font-size: 36px;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 110vw;
+}
+.Factsundertitle5{
+    font-size: 24px;
+     position: absolute;
+    margin-left: 20vw;
+    margin-top: 115vw;
+    width: 25vw;
+}
+    
+.parallaximg2{
+    opacity: 1;
+    
+}
+.parallaximg3{
+    opacity: 1;
+    
+}
+
+
+    /*      ----------------------- parallax ------------------*/
+    
+}
+
+
+
+/*      ----------------------- magic hover ------------------------*/
+.da-thumbs {
+    text-align: center;
+	list-style: none;
+	max-width: 950px;
+	height: 600px;
+	position: relative;
+	margin: 20px auto;
+	padding: 0;
+    z-index: 1;
+}
+.da-thumbs li {
+	float: left;
+	margin: 5px;
+	background: #fff;
+	padding: 8px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: rgba(255,255,255,0.85);
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 0px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(0,0,0,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+/*      ----------------------- magic hover ------------------------*/
